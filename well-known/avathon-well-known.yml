@@ -1,0 +1,91 @@
+generated: '2026-08-06'
+method: probed
+source: live HTTP probes of every Avathon host reachable without credentials
+note: >-
+  No /.well-known/ document was found on any Avathon host. Both hosts answer every
+  /.well-known/* path with a 404 that renders the site's HTML 404 page (avathon.com is
+  WordPress; support.avathon.com is HubSpot CMS), so there is no security.txt, no OAuth
+  or OIDC discovery document, no api-catalog and no agent card to harvest. Recorded here
+  as negative evidence so a later re-run does not repeat the sweep from zero. No
+  WellKnown, SecurityTxt or AgentCard pointer is wired in apis.yml, because nothing was
+  found — an index of 404s is not a discovery surface.
+hosts:
+- host: https://avathon.com
+  server: WordPress
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /api-docs
+    status: 404
+  - path: /robots.txt
+    status: 200
+    note: Yoast-generated; disallows /wp-json/, /help, /search/
+  - path: /sitemap_index.xml
+    status: 200
+    note: 6 child sitemaps, none containing a docs, developer or API reference page
+- host: https://support.avathon.com
+  server: HubSpot CMS
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /api-docs
+    status: 404
+  - path: /help
+    status: 307
+    note: >-
+      Redirects to /_hcms/mem/login?redirect_url=https%3A%2F%2Fsupport.avathon.com%2Fhelp
+      — the HubSpot membership gate in front of the entire Avathon help centre.
+  - path: /robots.txt
+    status: 200
+  - path: /sitemap.xml
+    status: 200
+non_resolving_hosts:
+- docs.avathon.com
+- developer.avathon.com
+- api.avathon.com
+- app.avathon.com
+- platform.avathon.com
+- portal.avathon.com
+- status.avathon.com
+- trust.avathon.com
+- security.avathon.com
+- login.avathon.com
+- auth.avathon.com
+- help.avathon.com
+- sparkcognition.com
+- www.sparkcognition.com
+- docs.sparkcognition.com
+- api.sparkcognition.com
+non_resolving_note: >-
+  All of the above returned no DNS answer at probe time. sparkcognition.com no longer
+  resolves at all following the November 2024 rebrand to Avathon.
