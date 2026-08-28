@@ -15,6 +15,17 @@ description: 'Avathon — formerly SparkCognition, rebranded in November 2024 �
   to a HubSpot member login. Avathon is backed by investors including Temasek, Verizon
   Ventures and Boeing, and is headquartered in Silicon Valley after relocating from
   Austin, Texas.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://avathon.com/wp-content/uploads/2024/10/avathon-logo-1100.png
 url: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/apis.yml
 x-type: company
