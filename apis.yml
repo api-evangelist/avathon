@@ -51,7 +51,7 @@ tags:
 - Industrial AI
 - Predictive Maintenance
 - Asset Performance Management
-- Computer-Vision
+- Computer Vision
 - Digital Twin
 - Renewable Energy
 - Oil and Gas
@@ -71,6 +71,7 @@ tags_raw:
 - Manufacturing
 - Aerospace and Defense
 - Logistics
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
