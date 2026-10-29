@@ -64,5 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Avathon is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/avathon-stock
+Avathon — formerly SparkCognition, rebranded in November 2024 — is an industrial AI company whose Industrial AI Platform combines a data platform, industrial digital twin, AI modeling and application development layers to bring predictive maintenance, asset performance management, visual intelligence and autonomy to physical operations. Its solutions span renewables, oil and gas, power and utilities, manufacturing, mining, aerospace and defense, maritime, rail, aviation, logistics, warehousing and retail, with named offerings including Asset Performance Management, Visual AI / Visual Intelligence, Autonomy for Health, Safety and Environment, the Digital Maintenance Advisor and the Multidomain Awareness Advisor. The platform is sold and delivered as an enterprise engagement — marketing material references an application development SDK and APIs, but no public developer portal, API reference or machine-readable specification is published; the only documentation surface, support.avathon.com/help, redirects to a HubSpot member login. Avathon is backed by investors including Temasek, Verizon Ventures and Boeing, and is headquartered in Silicon Valley after relocating from Austin, Texas.
+
+**Areas:** Company · Artificial Intelligence · Industrial AI · Predictive Maintenance · Asset Performance Management · Computer Vision · Digital Twin · Renewable Energy · Oil and Gas · Manufacturing · Aerospace and Defense · Logistics
+
+## Avathon on APIs.io
+
+Everything profiled for Avathon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/avathon/](https://apis.io/providers/avathon/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Avathon Domain Security](https://apis.io/security/avathon/avathon-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://avathon.com/)
+- [Support](https://support.avathon.com/help)
+- [Blog](https://avathon.com/blogs/)
+- [Terms of service](https://avathon.com/terms-of-service/)
+- [Privacy policy](https://avathon.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/avathon/](https://apis.io/providers/avathon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Avathon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/avathon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
